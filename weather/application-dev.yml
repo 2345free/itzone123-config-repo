@@ -1,0 +1,7 @@
+redis:
+  persist:
+    timeout: 1800
+quartz:
+  job:
+    weather-collector:
+      corn: 0 2 * * * ?
