@@ -1,6 +1,7 @@
 redis:
   persist:
-    timeout: 1800
+    weather-data:
+      timeout: 1800
 quartz:
   job:
     weather-collector:
