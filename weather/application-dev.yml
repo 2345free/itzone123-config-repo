@@ -5,4 +5,4 @@ redis:
 quartz:
   job:
     weather-collector:
-      corn: 0 2 * * * ?
+      corn: 0 */5 * * * ?
