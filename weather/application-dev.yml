@@ -5,7 +5,7 @@ redis:
 quartz:
   job:
     weather-collector:
-      corn: 0 */5 * * * ?
+      corn: 0 */15 * * * ?
 itzone123:
   api:
     version: 1.0
